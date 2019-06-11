@@ -1,7 +1,8 @@
 i=int(input())
-if(i%2==0):
+j=i%2
+if(j==0):
   print("Even")
-if(i%2!=0):
+if(j!=0):
   print("Odd")
 else:
   print("invalid")
