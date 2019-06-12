@@ -1,8 +1,10 @@
-b,t=map(int,input().split())
-for l in range(b,t+1):
-  u=0
-  for j in range(1,t):
-    if l%j==0:
-      u+=1
-  if u==2:
-    print(l,end=" ")
+l,u=raw_input().split()
+lowe=int(l)
+uppe=int(u)
+for num in range(lowe,uppe):
+   if num > 1:
+       for i in range(2,num):
+           if (num % i) == 0:
+               break
+       else:
+           print num,
