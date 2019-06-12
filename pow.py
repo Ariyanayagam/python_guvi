@@ -1,2 +1,2 @@
-no,ok=(int,input().split())
+no,ok=map(int,input().split())
 print no**ok
