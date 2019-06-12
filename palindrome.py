@@ -1,6 +1,6 @@
 nn=input()
 c=nn[::-1]
 if(c==nn):
-  print "yes"
+  print ("yes")
 else:
-  print "no"    
+  print ("no")    
