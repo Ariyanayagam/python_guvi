@@ -1,0 +1,7 @@
+ha,ma=raw_input().split()
+hs,ms=raw_input().split()
+ha=int(ha)
+ma=int(ma)
+hs=int(hs)
+ms=int(ms)
+print abs(ha-hs),abs(ma-ms)
