@@ -1,7 +1,8 @@
-i=int(input())
-if(i<0):
-  print("invalid")
-elif(i%2)==0:
-  print("Even")
+noo = int(raw_input())
+if noo >= 0:
+  if noo%2 == 0:
+    print "Even"
+  elif noo%2 != 0:
+    print "Odd"
 else:
-  print("Odd")
+  print "invalid"
