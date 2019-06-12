@@ -1,6 +1,6 @@
 nn=input()
-c=nn
-if(c==nn[::-1]):
+c=nn[::-1]
+if(c==nn):
   print "yes"
 else:
   print "no"    
