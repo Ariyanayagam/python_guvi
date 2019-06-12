@@ -1,5 +1,5 @@
-CCh=raw_input()
-if CCh.isalpha:
+ch=raw_input()
+if ch.isalpha:
     print "Alphabet"
 else:
   print "No"
