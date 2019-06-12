@@ -1,2 +1,2 @@
-st=int(raw_input())
-print("Hello"*st)
+str=int(raw_input())
+print("Hello"*str)
