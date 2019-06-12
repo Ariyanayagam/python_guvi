@@ -1,4 +1,4 @@
-ch=raw_input()
+ch=input()
 if ch.isalpha:
     print "Alphabet"
 else:
