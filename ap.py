@@ -1,3 +1,6 @@
-n,a,d=map(int,input().split())
-total = (n * (2 * a + (n - 1) * d)) / 2
-print (int(total))
+on,oa,od=raw_input().split()
+on=int(on)
+oa=int(oa)
+od=int(od)
+total = (on * (2 * oa + (on - 1) * od)) / 2
+print total
