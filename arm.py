@@ -1,6 +1,6 @@
 n = int(input())
 sum = 0
-temp = n
+t = n
 while t > 0:
    digit = t % 10
    sum += digit ** 3
