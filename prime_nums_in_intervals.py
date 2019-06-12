@@ -5,4 +5,4 @@ for num in range(l,u):
            if (num % i) == 0:
                break
        else:
-           print num,
+           print (num,)
