@@ -1,4 +1,3 @@
-oo=int(input())
-pp=list(map(int,input().split()))
-po.sort()
-print(max(pp))
+a11=int(input())
+a22=list(map(int,input().split()))
+print(max(a22))
