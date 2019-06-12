@@ -1,9 +1,9 @@
-ch=raw_input()
+cch=raw_input()
 vo=['a','e','i','o','u']
-if ch in vo:
+if cch in vo:
   print "Vowel"
 else:
-  if ch.isalpha:
+  if cch.isalpha:
     print "Consonant"
   else:
     print "invalid"
