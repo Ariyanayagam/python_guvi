@@ -1,5 +1,11 @@
-yer=int(input())
-if(yer%4==0):
-  print "yes"
+inputyea=int(input())
+if(inputyea%4==0):
+  if(inputyea%100==0):
+    if(inputyea%400):
+      print("yes")
+    else:
+      print("no")
+  else:
+    print("yes")
 else:
-  print "no"
+  print("no")
