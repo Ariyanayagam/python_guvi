@@ -1,4 +1,4 @@
 a=[]
-for x in raw_input().split():
-  a.append(int(x))
+for l in raw_input().split():
+  a.append(int(l))
 print max(a)
