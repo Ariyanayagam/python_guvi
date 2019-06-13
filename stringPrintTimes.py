@@ -1,4 +1,4 @@
-mm,n=input().split()
-l=int(n)
-for i in range(l):
-        print(mm)
+aa,b=input().split()
+n=int(b)
+for i in range(0,n):
+           print(aa)
