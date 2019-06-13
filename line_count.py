@@ -1,2 +1,2 @@
-a=input()
-print(a.count('.')+1)
+agfsg=input()
+print(agfsg.count('.')+1)
