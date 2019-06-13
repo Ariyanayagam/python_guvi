@@ -1,4 +1,4 @@
-aa,b=input().split()
-n=int(b)
+s,n=map(str,input().split())
+n=int(n)
 for i in range(0,n):
-           print(aa)
+  print(s)
