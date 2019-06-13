@@ -1,10 +1,8 @@
-def largest(arr,n):
-    max = arr[0] 
-    for i in range(1, n): 
-        if arr[i] > max: 
-            max = arr[i] 
-    return max  
-n = 10
-arr = list(map(int,input().split()))
-Ans = largest(arr,n) 
-print (Ans)
+nn=int(input())
+a = 0
+b = 1
+for i in range(0,nn):
+  print(b,end = " ")
+  c = a + b
+  a = b
+  b = c
