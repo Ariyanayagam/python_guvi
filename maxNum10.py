@@ -1,2 +1,2 @@
-m=list(input())
-print(max(m))
+aaa=list(input())
+print(max(aaa))
