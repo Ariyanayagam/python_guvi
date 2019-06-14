@@ -1,10 +1,10 @@
-ss = int(raw_input())
-if ss>1:
+ss = int(input())
+if( ss>1):
   for i in range(2,ss):
-    if ss%i == 0:
-      print "yes"
+    if( ss%i == 0):
+      print ("yes")
       break
   else:
-    print "no"
+    print( "no")
 else:
-  print "yes"
+  print ("yes")
