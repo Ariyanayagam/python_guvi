@@ -1,8 +1,8 @@
-i,j=map(int,input().split())
-i*=j
-for r in range(1,1000):
-  if((r*r)==i):
-    print ("yes")
-    j=0
-if(j!=0):
-  print("no")
+import math
+nn,m=map(int,input().split())
+k=(nn*m)
+q=int(math.sqrt(k))
+if(k==q*q):
+	print("yes")
+else:
+	print("no")
