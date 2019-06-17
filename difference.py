@@ -1,0 +1,6 @@
+i,j = map(int,input().split())
+k,l= map(int,input().split())
+m,n= map(int,input().split())
+print(j-i)
+print(l-k)
+print(n-m)
