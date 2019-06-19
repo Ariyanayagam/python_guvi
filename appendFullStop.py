@@ -1,0 +1,2 @@
+ti=input()
+print(ti+'.')
