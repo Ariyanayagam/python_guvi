@@ -1,6 +1,6 @@
-x=input()
-for i in range(len(x)):
+xa=input()
+for i in range(len(xa)):
   if (i%2==0):
-    print(x[i+1],end='')
+    print(xa[i+1],end='')
   else:
-    print(x[i-1],end='')
+    print(xa[i-1],end='')
