@@ -1,6 +1,6 @@
-is=input()
-s=["Sunday","Saturday"]
-if is in s:
-  print("yes")
+ss1=raw_input()
+l=["Saturday","Sunday"]
+if ss1 in l:
+  print "yes"
 else:
-  print("no")
+  print "no"
