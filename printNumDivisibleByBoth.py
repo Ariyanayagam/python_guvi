@@ -1,5 +1,5 @@
-lz, r = map(int,raw_input().split())
-for i in range(1,100001):
-  if i%lz==0 and i%r==0:
-    print i
-    break
+t1x=list(map(int,input().split()))
+for i in range(1,(t1x[0]*t1x[1])+1):
+    if(i%t1x[0]==0 and i%t1x[1]==0):
+        print(i)
+        break
