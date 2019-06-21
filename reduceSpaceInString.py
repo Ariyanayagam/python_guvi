@@ -1,12 +1,12 @@
 
-aa=input()
+aax=input()
 
-for i in range(0,len(aa)):
+for i in range(0,len(aax)):
 
-  if (aa[i]==' ' and aa[i+1]==' '):
+  if (aax[i]==' ' and aax[i+1]==' '):
 
     x=0
 
   else:
 
-    print(aa[i],end='')
+    print(aax[i],end='')
