@@ -1,6 +1,6 @@
-sx,s1=input().split()
+sx,sx1=input().split()
 c=0
 for i in sx:
-    if i==s1:
+    if i==sx1:
         c=c+1
 print(c)
